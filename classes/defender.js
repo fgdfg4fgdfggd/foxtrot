@@ -9,7 +9,7 @@ class GroupDefender {
     this.discord = new Discord(config.webhook, config.groupId)
     this.actions = new Map()
     this.duration = config.duration ? config.duration : 600
-    this.threshold = config.threshold ? config.threshold : 10
+    this.threshold = config.threshold ? config.threshold : 4
     this.delay = config.delay || 60
   }
 
